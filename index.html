@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quick Stop Game</title>
+</head>
+<body>
+ <h1>Quick Stop Game</h1>
+    
+
+ <ul>
+    <li style="font-size: 25px; font-weight: bold;">Game Rule</li>
+    <li> You have to click Stop button before 1000</li>
+    <li> If your number match above number then you will win</li>
+    <li> If doesnt match you will loss</li>
+ </ul>
+ 
+<div class="input"> <input type="text" placeholder="Enter Num" id="userInput">
+<button id="start_btn" onclick="start()">Start</button>
+</div>
+<div class="number"><h1 id="number" class="num">00</h1>
+<button onclick="stop()" class="stop">Stop</button></div>
+
+
+<h4 id="result">Result</h4>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
